@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+  
+    "name": "PrivacyDocker",
+    "description": "All your privacy apps in one place",
+    "version": "0.0.1",
+    "icons": { "128": "logo.png" },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["tabs","storage"]
+  }

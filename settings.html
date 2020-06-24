@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Privacy Docker Settings</title>
+  <link rel="stylesheet" type="text/css" href="style-settings.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" 
+    integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <script type="text/javascript" src="settings.js"></script>  
+  </head>
+<body>
+<div class="container">
+<div class="header">
+  <div class="logo"> <img src="logo.png"/></div> 
+  <div class="title"><span class="heading">PrivacyDocker</span> <span class="subheading"> all secure apps in one place....</span></div>
+</div>
+<div class="services"><span class="services-header">Choose your service</span>
+  <table>
+  <tbody>
+    <tr>
+      <td><select class="service-select" id="search-engine"> <option disabled selected>Search Engine</option>
+        <option value="DuckDuckGo">DuckDuckGo</option> <option value="StartPage">StartPage</option><option value="Qwant">Qwant</option>
+      </select></td>
+    </tr>
+    <tr>
+    <td><select class="service-select even" id="mail-provider"> <option disabled selected>Mail Provider</option>
+      <option value="ProtonMail">ProtonMail</option> <option value="Tutanota">Tutanota</option><option value="StartMail">StartMail</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td><select class="service-select" id="messaging"> <option disabled selected>Messaging</option>
+      <option value="Keybase">Keybase</option> <option value="Signal">Signal</option> </select></td>
+  </tr>
+  <tr>
+    <td><select class="service-select even" id="cloud-storage"> <option disabled selected>Cloud Storage</option>
+      <option value="Nextcloud">Nextcloud</option> <option value="Sync">Sync</option><option value="pCloud">pCloud</option>
+      <option value="Tahoe-LAFS">Tahoe-LAFS</option> </select> </td>
+  </tr>
+  <tr>
+    <td><select class="service-select" id="office-suite"> <option disabled selected>Office Suite</option>
+      <option value="CryptPad">CryptPad</option> <option value="Zoho-Docs">Zoho Docs</option><option value="Etherpad">Etherpad</option> </select> </td>
+  </tr>
+  <tr>
+    <td><select class="service-select even" id="maps"> <option disabled selected>Maps</option>
+      <option value="OpenStreetMap">OpenStreetMap</option> <option value="MAPS.ME">MAPS.ME</option><option value="HereWeGo">Here WeGo</option> </select> </td>
+  </tr>
+  <tr>
+    <td><select class="service-select" id="gallery"> <option disabled selected>Gallery</option>
+      <option value="Piwigo">Piwigo</option> <option value="Lychee">Lychee</option><option value="Cryptee">Cryptee</option> </select> </td>
+  </tr>
+  <tr>
+    <td><select class="service-select even" id="calendar"> <option disabled selected>Calendar</option>
+      <option value="EteSync">EteSync</option><option value="Lightning-Calendar">Lightning Calendar</option> <option value="Fruux">Fruux</option>  </select> </td>
+  </tr>
+  <tr>
+    <td><select class="service-select" id="notes"> <option disabled selected>Notes</option>
+      <option value="Standard-Notes">Standard Notes</option> <option value="Joplin">Joplin</option><option value="QOwnNotes">QOwnNotes</option> </select> </td>
+  </tr>
+  <tr>
+    <td><select class="service-select even" id="file-sharing"> <option disabled selected>File Sharing</option>
+      <option value="Firefox-Send">Firefox Send</option> <option value="Onion-Share">Onion Share</option><option value="Magic-Wormhole">Magic Wormhole</option> </select> </td>
+  </tr> 
+  <tr> 
+    <td><select class="service-select" id="password-manager"> <option disabled selected>Password Manager</option>
+      <option value="Bitwarden">Bitwarden</option> <option value="KeePassXC">KeePassXC</option><option value="LessPass">LessPass</option>
+  </select></td></tr> 
+  <tr>
+    <td><select class="service-select even" id="vpn"> <option disabled selected>VPN</option>
+      <option value="1">ProtonVPN</option><option value="ExpressVPN">ExpressVPN</option><option value="NordVPN">NordVPN</option>
+  </select></td></tr>
+  <tr><td><button id="save" class="save-setting">Save</button></td></tr> 
+</tbody></table>
+</div>  
+</body>
+</html>
