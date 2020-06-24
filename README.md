@@ -1,9 +1,7 @@
 # PrivacyDocker
 ### A simple chrome extension that shows different services that value privacy.
 
-Users can choose between different services as per preference.
-
-The different Services include:
+User can choose between different services as per preference. The different Services include:
 
 1. **Search Engine**: DuckDuckGo, StartPage, Qwant
 2. **Mail Provider**: ProtonMail, Tutanota, StartMail
