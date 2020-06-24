@@ -23,7 +23,7 @@ function getService(){
         pass_url = obj.passURL;
         vpn_url = obj.vpnURL;
 
-        // use default
+        // use defaults (if no changes were made in settings.html)
         if(!se_url)
             se_url = "https://duckduckgo.com/?t=lm&q=";
         if (!mail_url)
